@@ -1,0 +1,31 @@
+{
+  "name": "tidebitswap-contract",
+  "version": "1.0.0",
+  "description": "The Smart Contract for TideBitSwap",
+  "main": "bin/build.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAFECA-IO/TideBitSWAP-Contract.git"
+  },
+  "keywords": [
+    "solidity",
+    "smartcontract",
+    "ethereum",
+    "swap",
+    "tidebit"
+  ],
+  "author": "CAFECA",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/CAFECA-IO/TideBitSWAP-Contract/issues"
+  },
+  "homepage": "https://github.com/CAFECA-IO/TideBitSWAP-Contract#readme"
+}

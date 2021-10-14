@@ -38,9 +38,14 @@ module.exports = {
    */
 
   networks: {
-    development: {
+    tidetime: {
       provider: () =>
         new HDWalletProvider(mnemonicPhrase, "https://rpc.tidebit.network"),
+        network_id: "*" // Any network (default: none)
+    },
+    ropsten: {
+      provider: () =>
+        new HDWalletProvider(mnemonicPhrase, "https://ropsten.tidewallet.io"),
         network_id: "*" // Any network (default: none)
     }
     // Useful for testing. The `development` name is special - truffle uses it by default

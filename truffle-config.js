@@ -43,6 +43,12 @@ module.exports = {
         new HDWalletProvider(mnemonicPhrase, "https://rpc.tidebit.network"),
         network_id: "*" // Any network (default: none)
     },
+    bsctestnet: {
+      provider: () =>
+        new HDWalletProvider(mnemonicPhrase, "https://data-seed-prebsc-1-s1.binance.org:8545/"),
+        networkCheckTimeout: 100000000,
+        network_id: "*" // Any network (default: none)
+    },
     ropsten: {
       provider: () =>
         new HDWalletProvider(mnemonicPhrase, "https://ropsten.tidewallet.io"),
